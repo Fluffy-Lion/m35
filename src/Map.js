@@ -5,12 +5,12 @@ import img3 from './images/3.png'
 import img4 from './images/4.png'
 
 const Map = () => {
-    const arr = [
+    const [arr, setArr] = useState([
         { image: img1, text: "cabins" },
         { image: img2, text: "water cabin" },
         { image: img3, text: "flat ground cabin" },
         { image: img4, text: "cabin with dogs" }
-    ]
+    ])
     return (
         <div>
             {arr.map((item, index) => {

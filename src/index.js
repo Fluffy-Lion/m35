@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ConditionalRender from './ConditionalRender';
+// import ConditionalRender from './ConditionalRender';
 import './index.css';
-import App from './App';
-import State from './State'
+// import App from './App';
+// import State from './State'
 import Map from './Map'
 
 ReactDOM.render(<Map />,document.getElementById('root'));
