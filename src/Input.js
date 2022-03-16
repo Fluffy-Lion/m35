@@ -7,11 +7,11 @@ const Input = () => {
         setUserInput(event.target.value)
     }
     return (
-        <div>
+        <>
             <h1>input js</h1>
             <input onChange={changeHandler}></input>
             <h2>{userInput}</h2>
-        </div>
+        </>
     )
 }
 export default Input
