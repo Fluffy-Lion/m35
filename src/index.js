@@ -6,6 +6,7 @@ import './index.css';
 // import App from './App';
 // import State from './State'
 // import Map from './Map'
-import Common from './Common';
+// import Common from './Common';
+import Input from './Input';
 
-ReactDOM.render(<Common />,document.getElementById('root'));
+ReactDOM.render(<Input />, document.getElementById('root'));
